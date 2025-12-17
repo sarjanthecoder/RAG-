@@ -2,7 +2,7 @@
  * API Client for RAG Resume Chatbot Backend
  */
 
-const API_BASE_URL = 'http://localhost:8000';
+const API_BASE_URL = 'https://rag-uye6.onrender.com';
 
 /**
  * Send a chat message and get AI response
