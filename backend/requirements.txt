@@ -1,0 +1,9 @@
+# RAG Resume Chatbot - Minimal Dependencies
+# Simplified for Python 3.14 compatibility
+
+fastapi
+uvicorn
+python-dotenv
+google-generativeai
+pypdf
+python-multipart
