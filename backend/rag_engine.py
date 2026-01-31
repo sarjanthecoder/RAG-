@@ -36,7 +36,7 @@ class SimpleRAGEngine:
             raise ValueError("Please set your GOOGLE_API_KEY in the .env file")
         
         genai.configure(api_key=api_key)
-        self.model = genai.GenerativeModel('gemini-2.0-flash')
+        self.model = genai.GenerativeModel('gemini-2.5-flash')
         
         # System prompt for the chatbot
         self.system_prompt = """You are an AI assistant that answers questions about a person based on their resume.

@@ -1,9 +1,9 @@
-# RAG Resume Chatbot - Minimal Dependencies
-# Simplified for Python 3.14 compatibility
+# Requirements for RAG Resume Chatbot Backend
+# Optimized for Python 3.10+ and Render deployment
 
-fastapi
-uvicorn
-python-dotenv
-google-generativeai
-pypdf
-python-multipart
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+python-dotenv==1.0.1
+google-generativeai==0.8.3
+pypdf==5.1.0
+python-multipart==0.0.20
