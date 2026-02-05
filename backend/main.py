@@ -132,7 +132,7 @@ async def upload_resume(file: UploadFile = File(...)):
     
     # Validate file type
     if not file.filename.lower().endswith('.pdf'):
-        raise HTTPException(status_code=400, detail="Only PDF files are allowed")
+        raise HTTPException(status_code=400, detail="Only PDF  formatted files are allowed")
     
     try:
         # Save uploaded file
