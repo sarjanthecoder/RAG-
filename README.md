@@ -86,4 +86,5 @@ GitHub: https://github.com/sarjanthecoder
 
 LinkedIn: https://linkedin.com/in/sarjan-p-7a97862a0
 
-Portfolio: https://sarjan.site
+Portfolio: https://sarjanp.in
+
